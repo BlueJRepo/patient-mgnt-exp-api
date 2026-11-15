@@ -19,5 +19,5 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: "${ secrets.DOCKER_USERNAME}"
-          passsword: "${ secrets.DOCKER_PASSWORD}"
+          password: "${ secrets.DOCKER_PASSWORD}"
 
