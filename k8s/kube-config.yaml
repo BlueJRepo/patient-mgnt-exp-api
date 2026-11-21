@@ -17,7 +17,7 @@ spec:
       containers:
       - name: patient-mgnt-exp-api-container
         # Replace with your actual Docker registry and image tag
-        image: mulesie/patient-mgnt-exp-api:5
+        image: mulesie/patient-mgnt-exp-api:6
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
